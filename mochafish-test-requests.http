@@ -1,0 +1,17 @@
+### Request 1: find username/password
+POST http://localhost:5000/check-login HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "badbnk",
+    "password" : "asdf"
+}
+
+### Request 2: find username / password
+POST http://localhost:5000/check-login HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "kovas",
+    "password" : "oidss"
+}
